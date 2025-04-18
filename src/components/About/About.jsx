@@ -1,5 +1,5 @@
 import React from 'react';
-import HERO_BG from '../../assets/hero-bg.png';
+import ABOUT_BG from '../../assets/about-us.svg';
 
 export default function About() {
     return (
@@ -8,8 +8,12 @@ export default function About() {
             id="about-us"
             data-aos="fade-up"
         >
-            <div className="hidden lg:block">
-                <img src={HERO_BG} alt="" />
+            <div className="w-full hidden lg:block">
+                <img
+                    src={ABOUT_BG}
+                    alt="About us"
+                    className="w-full h-auto max-w-[600px] mx-auto"
+                />
             </div>
             <div className="space-y-6">
                 <h2 className="text-3xl font-semibold text-gray-800">

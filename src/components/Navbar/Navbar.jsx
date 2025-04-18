@@ -6,7 +6,7 @@ import { IoClose } from 'react-icons/io5';
 const NAVIGATION_LINKS = [
     { name: 'Home', href: '#' },
     { name: 'About Us', href: '#about-us' },
-    { name: 'Service', href: '#services' },
+    { name: 'Services', href: '#services' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: 'Faq', href: '#faq' },
 ];
@@ -26,7 +26,9 @@ export default function Navbar() {
                     </a>
                     <div
                         className={`absolute left-0 top-16 w-full flex-col gap-6 space-y-4 bg-primary-400 px-7 py-12 transition-all duration-300 md:static md:flex md:w-auto md:flex-row md:gap-10 md:space-y-0 md:py-0 ${
-                            isOpen ? 'flex bg-white min-h-screen' : 'hidden'
+                            isOpen
+                                ? 'flex bg-[#167733] text-white min-h-screen'
+                                : 'hidden'
                         }`}
                     >
                         {NAVIGATION_LINKS?.map((link) => (
