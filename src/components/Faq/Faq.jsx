@@ -77,7 +77,7 @@ const FAQSection = () => {
     };
 
     return (
-        <section className="py-16 px-4 overflow-hidden">
+        <section className="py-16 px-4 overflow-hidden scroll-mt-20" id="faq">
             <div className="responsive__container">
                 <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
                     FAQ

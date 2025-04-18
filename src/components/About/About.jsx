@@ -4,7 +4,7 @@ import HERO_BG from '../../assets/hero-bg.png';
 export default function About() {
     return (
         <section
-            className="responsive__container flex gap-16 py-16"
+            className="responsive__container flex gap-16 py-16 scroll-mt-20"
             id="about-us"
             data-aos="fade-up"
         >

@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
                             <h3 className="text-lg font-semibold text-green-600 mb-2">
                                 {point.title}
                             </h3>
-                            <p className="text-gray-700">{point.desc}</p>
+                            <p className="text-neutral-grey">{point.desc}</p>
                         </div>
                     ))}
                 </div>

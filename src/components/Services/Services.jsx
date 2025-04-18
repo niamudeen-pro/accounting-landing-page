@@ -1,6 +1,5 @@
 import React from 'react';
 import GROUP_ICON from '../../assets/services/group-icon.png';
-import { IoPeopleOutline } from 'react-icons/io5';
 import Label from '../shared/Label';
 
 const SERVICES = [
@@ -45,7 +44,7 @@ const SERVICES = [
 export default function Services() {
     return (
         <section
-            className="py-16 responsive__container text-center"
+            className="py-16 responsive__container text-center scroll-mt-20"
             id="services"
         >
             <div className="mb-12 space-y-4">
@@ -65,8 +64,8 @@ export default function Services() {
                         key={index}
                         className="bg-white shadow-md rounded-lg p-8 text-center space-y-4 transition-transform duration-500 ease-in-out hover:scale-105"
                     >
-                        <IoPeopleOutline className="text-forestgreen mx-auto size-6" />
-                        <h3 className="text-xl font-semibold text-neutral-d-grey">
+                        {/* <IoPeopleOutline className="text-forestgreen mx-auto size-6" /> */}
+                        <h3 className="text-xl font-semibol">
                             {service.title}
                         </h3>
                         <p className="text-sm text-neutral-grey">

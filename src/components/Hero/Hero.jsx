@@ -5,19 +5,19 @@ import { MdCheckCircle } from 'react-icons/md';
 
 export default function Hero() {
     return (
-        <section className="bg-neutral-silver py-24" id="#">
+        <section className="bg-neutral-silver  py-16 sm:py-24" id="#">
             <div className="responsive__container flex  items-center justify-between gap-8">
                 <div>
                     <div className="space-y-4 text-center md:text-left">
                         <h1
-                            className="text-4xl sm:text-5xl md:text-6xl text-inherit font-semibold font-inherit font-body-regular-body-3"
+                            className="text-4xl sm:text-5xl md:text-6xl text-inherit font-bold font-inherit font-body-regular-body-3"
                             data-aos="fade-right"
                         >
                             Accounting Solutions
                         </h1>
                         <h1
                             data-aos="fade-right"
-                            className="text-4xl sm:text-5xl md:text-6xl  text-inherit font-semibold  font-body-regular-body-3 !text-forestgreen"
+                            className="text-4xl sm:text-5xl md:text-6xl  text-inherit font-bold  font-body-regular-body-3 !text-forestgreen"
                         >
                             for Global Entrepreneurs
                         </h1>

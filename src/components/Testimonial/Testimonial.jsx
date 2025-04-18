@@ -4,7 +4,6 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import Rating from '../Rating/Rating';
 
 const testimonials = [
     {
@@ -29,7 +28,7 @@ const testimonials = [
 export default function Testimonial() {
     return (
         <section
-            className="py-16 px-4 bg-neutral-silver"
+            className="py-16 px-4 bg-neutral-silver scroll-mt-40"
             id="testimonials"
             data-aos="fade-up"
         >
@@ -62,10 +61,9 @@ export default function Testimonial() {
                 >
                     {testimonials.map((item, idx) => (
                         <SwiperSlide key={idx}>
-                            <div className="bg-white w-full shadow-md rounded-2xl min-h-[200px] p-8 h-full mx-4 text-left text-sm space-y-3">
-                                <p className="font-semibold">{item.author}</p>
-                                <Rating />
+                            <div className="bg-white w-full shadow-md rounded-2xl min-h-[200px] p-8 h-full mx-4 text-left text-sm space-y-3 flex flex-col justify-between">
                                 <p>“{item.feedback}”</p>
+                                <p className="font-semibold">- {item.author}</p>
                             </div>
                         </SwiperSlide>
                     ))}

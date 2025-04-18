@@ -23,17 +23,6 @@ module.exports = {
                 },
             },
         },
-        // screens: {
-        //     lg: {
-        //         max: "1200px",
-        //     },
-        //     md: {
-        //         max: "960px",
-        //     },
-        //     sm: {
-        //         max: "420px",
-        //     },
-        // },
     },
     plugins: [],
 };
