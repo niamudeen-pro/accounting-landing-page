@@ -6,8 +6,11 @@ export default function Footer() {
             <div className="container mx-auto px-4 space-y-6 flex justify-center">
                 <a href="#" className="flex items-center">
                     <p className="text-sm">
-                        &copy; 2020 Azhar Global Accounting Ltd. All rights
-                        reserved.
+                        &copy; 2025{' '}
+                        <span className="font-semibold mx-1">
+                            Azhar Global Accounting.
+                        </span>
+                        All rights reserved.
                     </p>
                 </a>
             </div>

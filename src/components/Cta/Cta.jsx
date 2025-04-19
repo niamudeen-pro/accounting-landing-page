@@ -1,9 +1,10 @@
 import React from 'react';
 import { FaPhoneAlt, FaRegEnvelope } from 'react-icons/fa';
+import _config from '../../constants/index.js';
 
 export default function CTA() {
     return (
-        <section className="py-24 text-center bg-[#167733]">
+        <section className="py-24 text-center bg-dark-green">
             <div className="text-center space-y-4 responsive__container">
                 <h2
                     className="text-3xl font-semibold text-white"
@@ -28,11 +29,21 @@ export default function CTA() {
                 >
                     <div className="flex items-center gap-2">
                         <FaPhoneAlt />
-                        +123 456 7890
+                        <a
+                            href={`tel:${_config.PHONE_NUMBER}`}
+                            className="hover:underline"
+                        >
+                            {_config.PHONE_NUMBER}
+                        </a>
                     </div>
                     <div className="flex items-center gap-2">
                         <FaRegEnvelope />
-                        support@yourcompany.com
+                        <a
+                            href={`mailto:${_config.EMAIL}`}
+                            className="hover:underline"
+                        >
+                            {_config.EMAIL}
+                        </a>
                     </div>
                 </div>
             </div>

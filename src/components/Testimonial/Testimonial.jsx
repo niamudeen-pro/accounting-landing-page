@@ -1,29 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
-
+import _config from '../../constants/index.js';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
-const testimonials = [
-    {
-        feedback: 'This platform changed everything for us. Super smooth!',
-        author: 'Sarah Johnson',
-    },
-    {
-        feedback: 'The best design and support I’ve ever seen.',
-        author: 'David Smith',
-    },
-    {
-        feedback: 'It’s fast, easy to use, and reliable. Highly recommended.',
-        author: 'Emily Carter',
-    },
-    {
-        feedback: 'Clean UI and perfect UX, this is what we needed.',
-        author: 'Michael Brown',
-    },
-    { feedback: 'I love how intuitive everything is.', author: 'Lisa Adams' },
-];
 
 export default function Testimonial() {
     return (
@@ -36,7 +16,7 @@ export default function Testimonial() {
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">
                     What Our Clients Say
                 </h2>
-                <p className="text-neutral-grey mb-12">
+                <p className="text-seconday mb-12">
                     Hear from some of our happy customers using our services and
                     platform.
                 </p>
@@ -59,7 +39,7 @@ export default function Testimonial() {
                     }}
                     className="pb-12"
                 >
-                    {testimonials.map((item, idx) => (
+                    {_config.TESTIMONIALS?.map((item, idx) => (
                         <SwiperSlide key={idx}>
                             <div className="bg-white w-full shadow-md rounded-2xl min-h-[200px] p-8 h-full mx-4 text-left text-sm space-y-3 flex flex-col justify-between">
                                 <p>“{item.feedback}”</p>

@@ -12,6 +12,8 @@ module.exports = {
                 "neutral-grey": "#717171",
                 "neutral-d-grey": "#4d4d4d",
                 gray: "#18191f",
+                seconday: '#253243',
+                'dark-green': '#167733'
             },
             animation: {
                 scroll: "scroll 40s linear infinite",

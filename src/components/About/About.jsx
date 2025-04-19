@@ -19,14 +19,14 @@ export default function About() {
                 <h2 className="text-3xl font-semibold text-gray-800">
                     About Us
                 </h2>
-                <p className="m-0 self-stretch relative text-base leading-[20px] text-neutral-grey">
+                <p className="m-0 text-base leading-[20px] text-seconday">
                     At [Your Company Name], we are committed to revolutionizing
                     the way businesses manage their finances. Our mission is to
                     provide streamlined, efficient, and affordable accounting
                     solutions that allow businesses of all sizes to focus on
                     what matters most—growth and success.
                 </p>
-                <p className="m-0 self-stretch relative text-base leading-[20px] text-neutral-grey">
+                <p className="m-0 text-base leading-[20px] text-seconday">
                     Our vision is to empower businesses around the world with
                     the tools they need to manage their finances efficiently,
                     effortlessly, and securely. We believe that accounting
