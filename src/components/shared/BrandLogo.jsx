@@ -5,7 +5,7 @@ export default function BrandLogo() {
         <a href="#" className="flex items-center space-x-2">
             <img src={BRAND_ICON} alt="Nexcent Logo" />
             <p className="text-xl font-semibold text-gray-800">
-                Azhar Global Accounting
+                Global Accounting
             </p>
         </a>
     );

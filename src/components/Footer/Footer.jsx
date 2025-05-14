@@ -8,7 +8,7 @@ export default function Footer() {
                     <p className="text-sm">
                         &copy; 2025{' '}
                         <span className="font-semibold mx-1">
-                            Azhar Global Accounting.
+                            Accounting Global Solutions
                         </span>
                         All rights reserved.
                     </p>

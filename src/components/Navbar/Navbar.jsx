@@ -12,9 +12,9 @@ export default function Navbar() {
                 <nav className="m-0 self-stretch flex flex-row items-center justify-between text-left text-base text-gray font-body-regular-body-3">
                     <a href="#" className="flex items-center space-x-2">
                         <p className="text-lg sm:text-xl font-semibold text-gray-800flex">
-                            Azhar{' '}
+                            Accounting{' '}
                             <span className="text-forestgreen">Global</span>{' '}
-                            Accounting
+                            Solutions
                         </p>
                     </a>
                     <div
